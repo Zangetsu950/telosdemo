@@ -1,0 +1,97 @@
+.services-section {
+    padding: 3rem 0;
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.services-intro {
+    margin-bottom: 1.5rem;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.services-visual {
+    display: flex;
+    justify-content: center;
+}
+
+.visual-container {
+    position: relative;
+    width: 16rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+
+.visual-card {
+    width: 16rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: var(--radius-md);
+}
+
+.visual-card-back {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    z-index: -1;
+}
+
+.visual-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: var(--color-accent);
+}
+
+.work-link {
+    display: flex;
+    align-items: center;
+}
+
+.work-link-arrow {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.25rem;
+    transition: transform 0.3s;
+}
+
+.work-link:hover .work-link-arrow {
+    transform: translateX(0.25rem);
+}
+
+.service-item {
+    margin-bottom: 0.75rem;
+}
+
+.service-title {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+}
+
+.service-link {
+    display: block;
+    transition: color 0.3s;
+}
+
+.service-link:hover {
+    color: var(--color-accent);
+}
+
+@media (min-width: 768px) {
+    .services-content {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .services-visual {
+        justify-content: flex-end;
+    }
+}

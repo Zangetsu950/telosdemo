@@ -1,0 +1,84 @@
+.hero-section {
+    position: relative;
+    padding: 4rem 0;
+    margin-top: 2rem;
+  }
+  
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-highlight {
+    background-color: var(--color-primary);
+    padding: 0 0.5rem;
+  }
+  
+  .hero-text {
+    text-align: left;
+    font-size: var(--font-size-lg);
+  }
+  
+  .hero-accent {
+    color: var(--color-accent);
+  }
+  
+  .bg-text {
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 700;
+    opacity: 0.2;
+    color: var(--color-text-secondary);
+    z-index: -1;
+  }
+  
+  .bg-text-cover {
+    top: 5rem;
+    right: 2.5rem;
+  }
+  
+  .bg-text-price {
+    top: 2.5rem;
+    left: 2.5rem;
+  }
+  
+  .bg-text-porsche {
+    bottom: 5rem;
+    left: 2.5rem;
+  }
+  
+  .bg-text-risk {
+    bottom: 10rem;
+    left: 5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section {
+      padding: 6rem 0;
+    }
+    
+    .hero-content {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+    
+    .hero-title {
+      font-size: 3.5rem;
+    }
+    
+    .hero-text {
+      text-align: right;
+    }
+    
+    .bg-text {
+      font-size: 4rem;
+    }
+  }

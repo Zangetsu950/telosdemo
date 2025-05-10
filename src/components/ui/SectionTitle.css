@@ -1,0 +1,13 @@
+.section-title {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title-blue {
+    color: var(--color-accent);
+  }
+  
+  .section-title-white {
+    color: var(--color-text);
+  }

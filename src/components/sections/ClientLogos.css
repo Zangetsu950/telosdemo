@@ -1,0 +1,24 @@
+.client-logos-section {
+    padding: 3rem 0;
+  }
+  
+  .logos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .logos-grid-top {
+    margin-bottom: 2rem;
+  }
+  
+  .client-logo {
+    height: 2rem;
+    object-fit: contain;
+  }
+  
+  @media (min-width: 768px) {
+    .logos-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }

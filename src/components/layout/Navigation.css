@@ -1,0 +1,18 @@
+.main-navigation {
+    display: none;
+  }
+  
+  .nav-link {
+    margin-left: 2rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: var(--color-accent);
+  }
+  
+  @media (min-width: 768px) {
+    .main-navigation {
+      display: flex;
+    }
+  }

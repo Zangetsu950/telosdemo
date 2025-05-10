@@ -1,0 +1,21 @@
+.process-section {
+    padding: 3rem 0;
+  }
+  
+  .process-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .process-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .process-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

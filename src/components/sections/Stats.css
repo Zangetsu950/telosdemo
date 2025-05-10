@@ -1,0 +1,25 @@
+.stats-section {
+    padding: 2rem 0;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+  }
+  
+  @media (min-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .stat-value {
+      font-size: var(--font-size-3xl);
+    }
+  }

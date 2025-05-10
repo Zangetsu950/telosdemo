@@ -1,0 +1,8 @@
+.service-item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .service-title {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+  }

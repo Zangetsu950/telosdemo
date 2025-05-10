@@ -1,0 +1,36 @@
+.client-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .client-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--color-card);
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+  
+  .client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .client-name {
+    font-weight: 500;
+  }
+  
+  .client-followers {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+  }
+  
+  @media (min-width: 768px) {
+    .client-image {
+      width: 6rem;
+      height: 6rem;
+    }
+  }

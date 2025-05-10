@@ -1,0 +1,38 @@
+.process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process-step-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.process-step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    font-weight: 500;
+}
+
+.process-step-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.process-step-title {
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .process-step {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,24 @@
+.cta-section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .cta-title {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-text {
+    max-width: 36rem;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .cta-highlight {
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    padding: 0.75rem 1.5rem;
+  }

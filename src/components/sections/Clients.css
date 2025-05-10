@@ -1,0 +1,21 @@
+.clients-section {
+    padding: 3rem 0;
+  }
+  
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .clients-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .clients-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
