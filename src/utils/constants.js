@@ -1,11 +1,10 @@
-// src/utils/constants.js
-
 export const NAVIGATION_LINKS = [
-  { name: 'Services', href: '/services/content-strategy' },
-  { name: 'Work', href: '/work' },
-  { name: 'Team', href: '/team' },
-  { name: 'Clients', href: '/#clients' },
-  { name: 'About us', href: '/#about' }
+  { name: 'Services', href: '/services/content-strategy' }, // No change needed
+  { name: 'Work', href: '/work' }, // No change needed
+  { name: 'Team', href: '/team' }, // No change needed
+  // The following should be changed to use HashLink
+  { name: 'Clients', href: '/#clients' }, // Change to '/' + '#clients' for HashRouter
+  { name: 'About us', href: '/#about' } // Change to '/' + '#about' for HashRouter
 ];
 
 export const CLIENTS = [

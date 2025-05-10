@@ -1,6 +1,6 @@
 // src/routes/Router.jsx
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Work from '../pages/Work';
 import Team from '../pages/Team';
@@ -10,7 +10,7 @@ import ScrollToTop from '../components/utils/ScrollToTop';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ const Router = () => {
         <Route path="/services/:service" element={<ServiceDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
